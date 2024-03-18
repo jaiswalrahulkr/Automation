@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automation"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="11.709">
+    <properties></properties>
+
+            <testcase
+                name="setUp"
+                time="11.709"
+                classname="PayPalLoginTest">
+
+            <failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 122.0.6261.129 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: &apos;DESKTOP-NKBD93J&apos;, ip: &apos;192.168.0.103&apos;
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]">
+                <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 122.0.6261.129 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-NKBD93J', ip: '192.168.0.103'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+                org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)Generic.BaseTest.setUp(BaseTest.java:36)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:566)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)java.base/java.util.ArrayList.forEach(ArrayList.java:1541)org.testng.TestRunner.privateRun(TestRunner.java:808)org.testng.TestRunner.run(TestRunner.java:603)org.testng.SuiteRunner.runTest(SuiteRunner.java:429)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)org.testng.SuiteRunner.run(SuiteRunner.java:326)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)org.testng.TestNG.runSuitesLocally(TestNG.java:1169)org.testng.TestNG.runSuites(TestNG.java:1092)org.testng.TestNG.run(TestNG.java:1060)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="setUp"
+                time="0.0"
+                classname="PayPalLoginTest">
+            </testcase>
+            <testcase
+                name="payPalLoginTest"
+                time="0.0"
+                classname="PayPalLoginTest">
+            </testcase>
+
+</testsuite>
